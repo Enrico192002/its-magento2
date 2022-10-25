@@ -1,0 +1,12 @@
+{
+    "prova3": {
+        "column": {
+            "id": true,
+            "type_id": true,
+            "type_surname": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

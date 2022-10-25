@@ -1,0 +1,12 @@
+<?php
+namespace Its\Database\Controller\Ticket;
+
+use Magento\framework\Controller\Noroute;
+
+class EventSecondo extends \Magento\Framework\App\Action\Action
+{
+
+	public function excute(){
+        $this->_eventManager->dispatch('controller_action_noroute', ['action' => $this, 'status' => $status]);
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="prova3" resource="default" engine="innodb" comment="prova1">
+        <column xsi:type="int" name="id" unsigned="true" nullable="false"
+                comment="Entity ID"/>
+        <column xsi:type="varchar" name="type_id" nullable="false" length="32" default="simple" comment="Type ID"/>
+        <column xsi:type="varchar" name="type_surname" nullable="false" length="32" default="simple" comment="Type Surname"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+</schema>

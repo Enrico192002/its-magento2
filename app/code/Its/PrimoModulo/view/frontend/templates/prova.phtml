@@ -1,0 +1,24 @@
+<div data-bind="scope: 'its'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+
+</div>
+<script type="text/x-magento-init">
+    {
+        "*":{
+            "Magento_Ui/js/core/app": {
+                "components" : {
+                    "its": {
+                        "component": "Its_PrimoModulo/js/view/its",
+                        "template": "Its_PrimoModulo/esempio",
+                        "tasks": [
+                        {"label": "Task 1","status": false},
+                        {"label": "Task 2","status": false},
+                        {"label": "Task 3","status": true}
+                        ]
+                    }
+                }
+            }
+        }
+    }
+</script>

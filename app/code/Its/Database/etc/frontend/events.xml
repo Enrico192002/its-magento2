@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="Its_Database_display_text">
+        <observer name="Its_display_text" instance="Its\Database\Observer\ChangeDisplayTex" />
+    </event>
+    <event name="Its_Database_controller_action">
+        <observer name="Its_controller_action" instance="Its\Database\Observer\ControllerAction" />
+    </event>
+</config>

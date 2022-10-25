@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form name="invio_dati" action="<?php echo $block->getUrl('db/ticket/form');?>" method="post">
+  <label for="type_id">type_id:</label><br>
+  <input type="text" id="type_id" name="type_id"><br>
+  <label for="type_surname">type_surname:</label><br>
+  <input type="text" id="type_surname" name="type_surname"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>

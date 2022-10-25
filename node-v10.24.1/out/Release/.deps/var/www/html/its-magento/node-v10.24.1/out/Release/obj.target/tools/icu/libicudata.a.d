@@ -1,0 +1,1 @@
+cmd_/var/www/html/its-magento/node-v10.24.1/out/Release/obj.target/tools/icu/libicudata.a := rm -f /var/www/html/its-magento/node-v10.24.1/out/Release/obj.target/tools/icu/libicudata.a && ar crsT /var/www/html/its-magento/node-v10.24.1/out/Release/obj.target/tools/icu/libicudata.a /var/www/html/its-magento/node-v10.24.1/out/Release/obj.target/icudata/gen/icusmdt64_dat.o

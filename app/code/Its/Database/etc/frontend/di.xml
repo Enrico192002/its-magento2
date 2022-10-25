@@ -1,0 +1,9 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+ 
+   <type name="Magento\Catalog\Model\Product">
+    <plugin name="change_product_price" type="Its\Database\Plugin\Productprice" sortOrder="1" />
+  </type>   
+  <type name="Its\Database\Controller\Ticket\Before">
+      <plugin name="cambia_titolo" type="Its\Database\Plugin\Productprice" sortOrder="2" />
+  </type>
+</config>

@@ -1,0 +1,31 @@
+<?php $block->get_info(); 
+echo "&nbsp;"; 
+$block->getCustomerName();
+echo "&nbsp;"; 
+//$customerprova=$block->getCredenziali();
+// $customerprova->getName();
+$product=$this->getLoadProduct(52);
+echo $product->getName();
+echo "&nbsp;"; 
+echo $product->getSku();
+echo "&nbsp;"; 
+echo $product->getPrice();
+echo "&nbsp;"; 
+echo $product->getcustom_prod();
+?>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form name="invio_dati" action="<?php echo $block->getUrl('its/page/form');?>" method="post">
+  <?php echo $this->getBlockHtml('formkey')?>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
