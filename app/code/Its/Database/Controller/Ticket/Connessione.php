@@ -17,7 +17,7 @@ class Connessione extends Action
     public function execute()
     {
         $ticket = $this->ticketFactory->create();
-        $ticket->setData('type_id','stronzo');
+        $ticket->setData('type_id','stronzoo');
         $ticket->save();
     }
 }
