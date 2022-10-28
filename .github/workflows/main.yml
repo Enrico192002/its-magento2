@@ -13,3 +13,4 @@ jobs:
       with:
         process: 'create-project'
         magento_version: 2.3.7-p3
+        
